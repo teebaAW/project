@@ -25,31 +25,31 @@ import pictureOne from "../assets/picture-one.png";
       <h1 class="title">Products</h1>
       <div class="content">
         <div class="box-one">
-          <h1>Header</h1>
+          <!-- <h1>Header</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi saepe
             laborum dolorum, adipisci ab, unde aliquid ducimus porro magni
             inventore doloribus numquam at dolores quam expedita aspernatur
             incidunt cupiditate culpa?
-          </p>
+          </p> -->
         </div>
         <div class="box-one">
-          <h1>Header</h1>
+          <!-- <h1>Header</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi saepe
             laborum dolorum, adipisci ab, unde aliquid ducimus porro magni
             inventore doloribus numquam at dolores quam expedita aspernatur
             incidunt cupiditate culpa?
-          </p>
+          </p> -->
         </div>
         <div class="box-one">
-          <h1>Header</h1>
+          <!-- <h1>Header</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi saepe
             laborum dolorum, adipisci ab, unde aliquid ducimus porro magni
             inventore doloribus numquam at dolores quam expedita aspernatur
             incidunt cupiditate culpa?
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
