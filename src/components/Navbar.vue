@@ -7,8 +7,8 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="left-side"><h1>CamScan</h1></div>
     <div class="right-side">
       <div><RouterLink class="navbar-item" to="/">Home</RouterLink></div>
-      <!-- <div><RouterLink class="navbar-item">About</RouterLink></div> -->
-      <!-- <div><RouterLink class="navbar-item">Contact Us</RouterLink></div> -->
+      <div><RouterLink class="navbar-item" to="/">About</RouterLink></div>
+      <div><RouterLink class="navbar-item" to="/">Contact Us</RouterLink></div>
     </div>
   </div>
 </template>
@@ -22,8 +22,8 @@ import { RouterLink, RouterView } from "vue-router";
   font-size: larger;
   color: black;
   background-color: #005ad5;
-  padding-right: 100px;
-  padding-top: 10px;
+  /* padding-right: 100px; */
+  /* padding-top: 10px; */
 }
 
 .navbar-item {
@@ -40,5 +40,21 @@ import { RouterLink, RouterView } from "vue-router";
 .navbar .left-side {
   padding-left: 100px;
   color: aliceblue;
+}
+
+@media only screen and (min-width: 375px) {
+  .navbar {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  .navbar .left-side {
+    padding-left: 20px;
+    align-items: center;
+  }
+  .navbar .right-side {
+    display: flex;
+    padding-right: 0px;
+    align-items: center;
+  }
 }
 </style>

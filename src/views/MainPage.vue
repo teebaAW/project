@@ -55,8 +55,8 @@ import pictureOne from "../assets/picture-one.png";
     </div>
     <div class="section-three">
       <div class="content">
-        <div class="">
-          <img :src="pictureOne" alt="" />
+        <div>
+          <img class="section-three-image" :src="pictureOne" alt="" />
         </div>
         <div class="section-three-description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit
@@ -71,10 +71,6 @@ import pictureOne from "../assets/picture-one.png";
 </template>
 
 <style>
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
 .section-one {
   background-color: #005ad5;
   background-size: cover;
@@ -108,15 +104,11 @@ import pictureOne from "../assets/picture-one.png";
 }
 
 .description-side {
-  margin-left: 90px;
-  color: aliceblue;
+  /* margin-left: 90px; */
+  /* color: aliceblue;
   margin-right: 90px;
   width: 50%;
-  font-size: larger;
-}
-
-.description-side {
-  font-size: larger;
+  font-size: larger; */
 }
 
 .section-two .title {
@@ -139,8 +131,8 @@ import pictureOne from "../assets/picture-one.png";
   border: 1px solid rgb(240, 230, 230);
   width: 200px;
   height: 400px;
-  flex: 1;
-  margin: 0 10px;
+  /* flex: 1;
+  margin: 0 10px; */
 }
 
 .content .box-one h1 {
@@ -148,6 +140,7 @@ import pictureOne from "../assets/picture-one.png";
   justify-content: center;
   margin-bottom: 100px;
 }
+
 .section-three {
   height: 500px;
   width: 100%;
@@ -160,13 +153,57 @@ import pictureOne from "../assets/picture-one.png";
   padding-top: 100px;
 }
 .section-three-description {
-  width: 600px;
+  /* width: 600px;
   margin-left: 100px;
   margin-top: 100px;
-  font-size: 20px;
+  font-size: 20px; */
+}
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .section-one {
+    height: 400px;
+  }
+  .description-side {
+    font-size: 10px;
+    width: 50%;
+    margin-left: 10px;
+    color: aliceblue;
+  }
+  .image-side {
+    width: 50%;
+  }
+  .section-two .title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .content {
+    height: 300px;
+  }
+  .content .box-one {
+    height: 150px;
+  }
+  .section-three {
+    height: 300px;
+    width: 100%;
+  }
+  .section-three-image {
+    width: 200px;
+    margin-left: 2+0px;
+  }
+
+  .section-three-description {
+    width: 300px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
 }
 .section-four {
-  width: 400px;
-  height: 400px;
+  background-color: #005ad5;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 68%);
+  padding-top: 100px;
 }
 </style>
